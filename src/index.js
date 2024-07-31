@@ -93,7 +93,14 @@ mediator.once("boot.ready", async (server) => {
       );
     })
   );
-
+  
+//home
+   app.get("/", (req,res)=>{
+    res.status(200).send({
+      "success":true,
+      "msg":"Node server is rinning"
+    })
+   })
   // Routes setup
   app.use(require("./routes"));
 
