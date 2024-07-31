@@ -1,0 +1,4 @@
+AdminId,Name,details,availableAt,defaultprice,quantity,isDeleted,code
+647edfcbc59357872c9b1574,Chocolate,Hello,Mumbai,1901,10000,FALSE,111
+647edfcbc59357872c9b1574,Biscuit,Grey ,Delhi,100,1200,FALSE,121
+647edfcbc59357872c9b1574,,Black One,Mumbai,121,2222,FALSE,212
